@@ -1,0 +1,77 @@
+    1  pwd
+    2  mkdir temp
+    3  cd temp
+    4  pwd
+    5  mkdir example1
+    6  mkdir example2
+    7  ls
+    8  rmdir example1
+    9  rmdir example2
+   10  ls
+   11  cd ..
+   12  ls
+   13  cd test
+   14  ls
+   15  cat file.txxt
+   16  cat file.txt
+   17  ls
+   18  rm file.txt
+   19  cd.. 
+   20  cd ..
+   21  ls
+   22  rmdir temp
+   23  rmdir test
+   24  ls
+   25  unzip week1data.zip 
+   26  rm week1data.zip 
+   27  cat data1.txt 
+   28  less data1.txt 
+   29  less data2.txt 
+   30  cat data1.txt data2.txt 
+   31  cat data*
+   32  less data*
+   33  cat data* > combined.txt
+   34  less combined.txt
+   35  rm combined.txt 
+   36  grep "Culture" *.txt
+   37  rep "Abba" *.txt | cut -d "," -f 2,4
+   38  grep "Abba" *.txt | cut -d "," -f 2,4
+   39  grep "Abba" *.txt | cut -d "," -f 5
+   40  grep "Abba" *.txt | cut -d "," -f 3
+   41  grep "Abba" *.txt | cut "," -f 3
+   42  grep "Abba" *.txt | cut -d "," -f 3
+   43  grep "42" *.txt > 42nd_hit.txt
+   44  ls
+   45  less 42nd_hit.txt 
+   46  cat 42nd_hit.txt 
+   47  grep "42." *.txt > 42nd_hit.txt 
+   48  cat 42nd_hit.txt 
+   49  grep "Eminem" data* > Eminem_hit.txt
+   50  cat
+   51  cat Eminem_hit.txt 
+   52  grep "1992" data* 
+   53  grep "1992" data* > 1992_hits.txt
+   54  grep "Pink Floyd" data* | cut -d "," -f 4 > Pink_floyd_hit_dates.txt
+   55  cat Pink_floyd_hit_dates.txt 
+   56  grep "Pink Floyd"
+   57  grep "Pink Floyd" data*
+   58  grep "1970" data* | sort | cut -d "," -f 1 
+   59  grep "1970" data* | sort | cut -d "," -f 2
+   60  grep "1970" data* | cut -d "," -f 2 | sort
+   61  grep "1970" data* | cut -d "," -f 2 | sort 
+   62  grep "200*" data*
+   63  grep * data* | cut -d "," -f 4 | grep "200*" 
+   64  grep 200* data* > naughties.txt
+   65  cat naughties.txt 
+   66  grep 200 data*
+   67  grep 200 data* > naughties.txt
+   68  cat naughties.txt
+   69  ls
+   70  rm 1992_hits.txt 
+   71  rm 42nd_hit.txt 
+   72  rm Eminem_hit.txt 
+   73  rm Pink_floyd_hit_dates.txt 
+   74  ls
+   75  rm naughties.txt 
+   76  history
+   77  history > notes.txt
